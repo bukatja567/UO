@@ -5,7 +5,7 @@ include 'files/img.php';
 function raspisan($chat_id){
 	sendPhoto($chat_id, FILE_RASP); 	
 	}
-function today($chat_id){
+function today(){
 	$nedel = strftime("%W", time());
 	$data = strftime("%a", time());
 	if (($nedel+1)%2!=0) 
@@ -30,9 +30,10 @@ function today($chat_id){
 			}
 	}
 	}
-function tomorrow($chat_id){
+function tomorrow(){
 	$nedel = strftime("%W", time());
 	$data = strftime("%a", time());
+	return "x";
 	if (($nedel+1)%2!=0) 
 		switch ($data) {
 			case 'Mon':	return "11:00 - 12:35 Иностранный язык(ПЗ)";
