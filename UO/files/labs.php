@@ -1,0 +1,3 @@
+<?php
+const TBLAB0001 = "BQADAgADsQIAAlSTkUlEiY_9zDDVVQI";
+?>

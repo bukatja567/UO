@@ -1,6 +1,7 @@
 //Команды "Умного одногруппника"
 <?php
 include 'files/img.php';
+include 'files/labs.php';
 
 function raspisan($chat_id){
 	sendPhoto($chat_id, FILE_RASP); 	
@@ -63,6 +64,6 @@ function week($chat_id){
 	}
 function labccna($chat_id, $mess){
 	$i = explode(" ", $mess);
-	sendFile($chat_id, "http://142.93.134.100/var/www/html/telebots/UO/files/FS/0.0.0.1.docx");
+	sendFile($chat_id, TBLAB0001);
 	}
 ?>
