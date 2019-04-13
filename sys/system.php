@@ -8,6 +8,7 @@ $chat_id = $output['message']['chat']['id'];
 $first_name = $output['message']['chat']['first_name'];
 $message = $output['message']['text'];
 $user_id = $output['message']['from']['id'];
+$file_id = $output['message']['document']['file_id'];
 //----Пока не используются:
 $who_write = $output['message']['from']['is_bot'];              //Кто написал: true - бот. false - человек
 $first_name = $output['message']['from']['first_name'];         //Имя написавшего (Может быть не указано в профиле!)
