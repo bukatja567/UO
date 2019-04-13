@@ -81,7 +81,6 @@ function labccna($chat_id, $mess){
 		//case '-': sendFile($chat_id, TBLAB);
 		//case '-': sendFile($chat_id, TBLAB);
 		//case '-': sendFile($chat_id, TBLAB);
-
 		}
 	}
 ?>
