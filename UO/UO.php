@@ -64,7 +64,7 @@ function week($chat_id){
 	}
 function labccna($chat_id, $mess){
 	$i = explode(" ", $mess);
-	switch ($i) {
+	switch ($i[1]) {
 		case '0.0.0.1': sendFile($chat_id, TBLAB0001);
 		}
 	}
