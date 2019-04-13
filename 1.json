@@ -1,0 +1,31 @@
+{
+    "ok": true,
+    "result": {
+        "message_id": 103,
+        "from": {
+            "id": 673372507,
+            "is_bot": true,
+            "first_name": "\u0423\u043c\u043d\u0430\u044f \u043e\u0434\u043d\u043e\u0433\u0440\u0443\u043f\u043f\u043d\u0438\u0446\u0430",
+            "username": "UO_ISIT_bot"
+        },
+        "chat": {
+            "id": -340420566,
+            "title": "\u0411\u043e\u0442\u043e\u0442\u0435\u0441\u0442 \u0423\u041e",
+            "type": "group",
+            "all_members_are_administrators": false
+        },
+        "date": 1555194942,
+        "document": {
+            "file_name": "leopard-aggression-teeth-960x540.jpg",
+            "mime_type": "image/jpeg",
+            "thumb": {
+                "file_id": "AAQEABOJiTobAAQ9_KHKpSk4J_ZBAAIC",
+                "file_size": 21345,
+                "width": 320,
+                "height": 180
+            },
+            "file_id": "BQADBAAD7wADUemUURL34YAXqZ_UAg",
+            "file_size": 194600
+        }
+    }
+}
