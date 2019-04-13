@@ -33,7 +33,6 @@ function today(){
 function tomorrow(){
 	$nedel = strftime("%W", time());
 	$data = strftime("%a", time());
-	return "x";
 	if (($nedel+1)%2!=0) 
 		switch ($data) {
 			case 'Mon':	return "11:00 - 12:35 Иностранный язык(ПЗ)";
