@@ -63,7 +63,7 @@ function week($chat_id){
 		else return 2;
 	}
 function labccna($chat_id, $mess){
-	$i = explode(" ", $mess);
+	//$i = explode(" ");
 	sendFile($chat_id, "BQADAgADsQIAAlSTkUlEiY_9zDDVVQI");
 	}
 ?>
