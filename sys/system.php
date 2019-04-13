@@ -23,4 +23,8 @@ function sendPhoto($chat_id, $file_id) //Функция ответа сообщ�
  {
  file_get_contents($GLOBALS['api'] . '/sendPhoto?chat_id=' . $chat_id . '&photo=' . $file_id);
  }
+ function sendFile($chat_id, $file_id) //Функция ответа сообщением
+ {
+ file_get_contents($GLOBALS['api'] . '/sendPhoto?chat_id=' . $chat_id . '&file=' . $file_id);
+ }
  ?>

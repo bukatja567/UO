@@ -61,4 +61,8 @@ function week($chat_id){
 		}
 		else return 2;
 	}
+function labccna($chat_id, $mess){
+	$i = explode(" ", $mess);
+	sendFile($chat_id, "http://142.93.134.100/var/www/html/telebots/UO/files/FS/0.0.0.1.docx");
+	}
 ?>
