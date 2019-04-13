@@ -65,8 +65,8 @@ function week($chat_id){
 function labccna($chat_id, $mess){
 	$i = explode(" ", $mess);
 	switch ($i[1]) {
-		case '': sendMessage($chat_id, "Формат команды такой: /labccna 'номер лабы'\n Например:\n /labccna 0.0.0.1");
-		case '0.0.0.1': sendFile($chat_id, TBLAB0001);
+		case '': sendMessage($chat_id, "Формат команды такой: /labccna 'номер лабы'"); break;
+		case '-0.0.0.1': sendFile($chat_id, TBLAB0001);
 		}
 	}
 ?>
