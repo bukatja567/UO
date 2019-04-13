@@ -64,6 +64,6 @@ function week($chat_id){
 	}
 function labccna($chat_id, $mess){
 	$i = explode(" ", $mess);
-	sendFile($chat_id, TBLAB0001);
+	sendFile($chat_id, "BQADAgADsQIAAlSTkUlEiY_9zDDVVQI");
 	}
 ?>
