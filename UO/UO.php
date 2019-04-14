@@ -3,6 +3,11 @@
 include 'files/img.php';
 include 'files/labs.php';
 
+function headgroup($chat_id){
+	sendPhoto($chat_id, IMG_HEADGROUP);
+	sendMessage($chat_id, TBHEADGROUP);
+	}
+
 function raspisan($chat_id){
 	sendPhoto($chat_id, FILE_RASP); 	
 	}

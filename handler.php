@@ -8,6 +8,7 @@ include 'log.php';        //Ведение лога
 
 wr_input_mess_to_logs ($chat_id, $username, $user_id, $message); //Писать логи входящих сообщений
 if ($chat_type != "group") sendMessage($chat_id,$file_id);
+if ($chat_type != "group") sendMessage($chat_id,$photo_id);
 //sendFile($chat_id, "BQADAgADsQIAAlSTkUlEiY_9zDDVVQI");
 $preload_text = bot_manager ($message, $chat_id, $user_id);	
 //---------------------------------------------K

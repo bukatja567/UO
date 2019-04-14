@@ -10,6 +10,7 @@ $message = $output['message']['text'];
 $user_id = $output['message']['from']['id'];
 $file_id = $output['message']['document']['file_id'];
 $chat_type = $output['message']['chat']['type'];
+$photo_id = $output['message']['photo']['3']['file_id'];
 //----Пока не используются:
 $who_write = $output['message']['from']['is_bot'];              //Кто написал: true - бот. false - человек
 $first_name = $output['message']['from']['first_name'];         //Имя написавшего (Может быть не указано в профиле!)
@@ -25,7 +26,7 @@ function sendPhoto($chat_id, $file_id) //Функция ответа сообщ�
  {
  file_get_contents($GLOBALS['api'] . '/sendPhoto?chat_id=' . $chat_id . '&photo=' . $file_id);
  }
- function sendFile($chat_id, $file_id) //Функция ответа сообщением
+function sendFile($chat_id, $file_id) //Функция ответа сообщением
  {
  file_get_contents($GLOBALS['api'] . '/sendDocument?chat_id=' . $chat_id . '&document=' . $file_id);
  }
