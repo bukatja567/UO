@@ -56,8 +56,14 @@ function tomorrow(){
 			}
 	}
 	}
-function week($chat_id){
+function week(){
         if ((strftime("%W", time())+1)%2!=0) {
+			return "Понедельник:\n".TBMON1."\n\nВторник\n".TBTUE1."\n\nСреда\n".TBWED1."\n\nЧетверг\n".TBTHU1."\n\nПятница\n".TBFRI1."\n\nСуббота\n".TBSAT1."\n\nВоскресенье\n".TBSUN1;
+		}
+		else return "Понедельник:\n".TBMON2."\n\nВторник\n".TBTUE2."\n\nСреда\n".TBWED2."\n\nЧетверг\n".TBTHU2."\n\nПятница\n".TBFRI2."\n\nСуббота\n".TBSAT2."\n\nВоскресенье\n".TBSUN2;
+	}
+function nextweek(){
+        if ((strftime("%W", time())+1)%2==0) {
 			return "Понедельник:\n".TBMON1."\n\nВторник\n".TBTUE1."\n\nСреда\n".TBWED1."\n\nЧетверг\n".TBTHU1."\n\nПятница\n".TBFRI1."\n\nСуббота\n".TBSAT1."\n\nВоскресенье\n".TBSUN1;
 		}
 		else return "Понедельник:\n".TBMON2."\n\nВторник\n".TBTUE2."\n\nСреда\n".TBWED2."\n\nЧетверг\n".TBTHU2."\n\nПятница\n".TBFRI2."\n\nСуббота\n".TBSAT2."\n\nВоскресенье\n".TBSUN2;

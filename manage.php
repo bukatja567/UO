@@ -21,7 +21,8 @@ function bot_manager($message, $chat_id, $user_id)
 				if (substr($mess,1,4) == "rasp") raspisan($chat_id);
 				if (substr($mess,1,9) == "headgroup") return TBHEADGROUP;
 				if (substr($mess,1,5) == "group") return TBGROUP;
-				if (substr($mess,1,4) == "week") return week($chat_id);
+				if (substr($mess,1,4) == "week") return week();
+				if (substr($mess,1,8) == "nextweek") return nextweek();
 				if (substr($mess,1,5) == "today") return today();
 				if (substr($mess,1,8) == "tomorrow") return tomorrow();
 				if (substr($mess,1,10) == "professors") return TBPROFESSORS;
@@ -44,7 +45,8 @@ function bot_manager($message, $chat_id, $user_id)
 				if (substr($mess,1,4) == "rasp") raspisan($chat_id);
 				if (substr($mess,1,9) == "headgroup") return TBHEADGROUP;
 				if (substr($mess,1,5) == "group") return TBGROUP;
-				if (substr($mess,1,4) == "week") return week($chat_id);
+				if (substr($mess,1,4) == "week") return week();
+				if (substr($mess,1,8) == "nextweek") return nextweek();
 				if (substr($mess,1,5) == "today") return today();
 				if (substr($mess,1,8) == "tomorrow") return tomorrow();
 				if (substr($mess,1,10) == "professors") return TBPROFESSORS;
