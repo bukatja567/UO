@@ -141,6 +141,7 @@ const TBLABALL = "*Список всех лаб CCNA:*
 /lab10245
 /lab10311
 ";
+
 const TBPROFESSORS = "
 Вычислительные приборы и 
 ";
