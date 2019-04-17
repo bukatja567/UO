@@ -115,7 +115,7 @@ function labccna($chat_id, $mess){
 			case '10234': case '10234@uo_isit_bot': sendFile($chat_id, TBLAB10234); break;
 			case '10245': case '10245@uo_isit_bot': sendFile($chat_id, TBLAB10245); break;
 			case '10311': case '10311@uo_isit_bot': sendFile($chat_id, TBLAB10311); break;
-			case 'all': case 'all@uo_isit_bot': sendFile($chat_id, TBLABALL); break;
+			case 'all': case 'all@uo_isit_bot': sendMessage($chat_id, TBLABALL); break;
 			default: sendMessage($chat_id, TBLAB); break;
 			}
 		}

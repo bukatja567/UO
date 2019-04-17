@@ -91,12 +91,12 @@ const TBSAT2 = "Выходной!";
 const TBSUN2 = "Выходной!";
 const TBLAB = "Формат команды такой: /lab'номер лабы', \nНапример: /lab0001
 Обязательные к выполнению на реальном оборудовании:
-/lab2145
-/lab31212
-/lab4334
-/lab6225
-/lab7136
-/lab101113
+/lab2145 - Vlans, VTP, DTP
+/lab31212 - STP
+/lab4334 - HSRP
+/lab6225 - EIGRP
+/lab7136 - EIGRP advance
+/lab101113 - OSPFv2
 
 Список всех работ: /laball
 ";
