@@ -45,7 +45,7 @@ const TBLOGS = "Файл логов здесь:\n142.93.134.100/telebots/FRTEST/
 const TBZAPCCNA = "Таблица для записи в 306 аудитории: \n https://docs.google.com/spreadsheets/d/10vSs0uxtNj4TEqaz3xQV9643eOIeYCXpOJgv\_GGX6LM/edit?usp=sharing\_eip&ts=5c739949";
 const TBHEADGROUP = "Староста 
 Владимир Андреевич Скрылев 
-@Vladimir_Skrylev 
+@Vladimir\_Skrylev 
 Телефон: +7 (985) 614-20-19";
 const TBGROUP = "
 Группа №306. ИСИТ
