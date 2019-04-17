@@ -121,7 +121,7 @@ function nextweek(){
 function labccna($chat_id, $mess){
 		$i = substr($mess,4,strlen($mess));
 		switch ($i) {
-			case '0001' or '0001@UO_ISIT_bot': sendFile($chat_id, TBLAB0001); break;
+			case ('0001' or '0001@uo_isit_bot'): sendFile($chat_id, TBLAB0001); break;
 			case '1012' or '1012@uo_isit_bot': sendFile($chat_id, TBLAB1012); break;
 			case '1311' or '1311@uo_isit_bot': sendFile($chat_id, TBLAB1311); break;
 			case '2145' or '2145@uo_isit_bot': sendFile($chat_id, TBLAB2145); break;
