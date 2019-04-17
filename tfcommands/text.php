@@ -11,7 +11,7 @@ _(команда также доступна по слову 'завтра')_
 _(команда также доступна по слову 'сегодня')_
 /group - Список группы
 /zapccna - Таблица записи на лабы по CCNA
-/labccna - Список лабораторных работ
+/lab - Список лабораторных работ
 
 В ближайшее время появится:
 /findp - Контакты преподавателя
@@ -34,14 +34,15 @@ _(команда также доступна по слову 'завтра')_
 _(команда также доступна по слову 'сегодня')_
 /group - Список группы
 /zapccna - Таблица записи на лабы по CCNA
-/labccna - Текст лабораторной работы
+/lab - Список лабораторных работ
+
 
 
 ";
 const TBSTART = "Привет. Я помошник студента ИСИТ 3его курса. \nО том, что я умею можно узнать по команде /help";
 const TBPROXY = "Для подключения прокси кликни по ссылке:\nhttps://t.me/proxy?server=142.93.134.100&port=3434&secret=1d3a72af7b07e06c0db56fcfa4a75f5c";
 const TBLOGS = "Файл логов здесь:\n142.93.134.100/telebots/FRTEST/logs/logs\n П.с. Удобно читать в Visual Studio Code или браузере, так будут переносы строки в отличии от блокнота :)";
-const TBZAPCCNA = "Таблица для записи в 306 аудитории: \n https://docs.google.com/spreadsheets/d/10vSs0uxtNj4TEqaz3xQV9643eOIeYCXpOJgv_GGX6LM/edit?usp=sharing_eip&ts=5c739949";
+const TBZAPCCNA = "Таблица для записи в 306 аудитории: \n https://docs.google.com/spreadsheets/d/10vSs0uxtNj4TEqaz3xQV9643eOIeYCXpOJgv\_GGX6LM/edit?usp=sharing\_eip&ts=5c739949";
 const TBHEADGROUP = "Староста 
 Владимир Андреевич Скрылев 
 @Vladimir_Skrylev 
@@ -88,6 +89,14 @@ const TBTHU2 = "День самоподготовки!";
 const TBFRI2 = "Выходной!";
 const TBSAT2 = "Выходной!";
 const TBSUN2 = "Выходной!";
+const TBLAB = "Формат команды такой: /lab'номер лабы', \nНапример: /lab0001
+Список лабораторных работ:
+Обязательные к выполнению на реальном оборудовании:
+
+Обязательные к выполнению в PTracer:
+
+Остальные:
+";
 const TBPROFESSORS = "
 Вычислительные приборы и 
 ";
