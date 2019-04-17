@@ -7,7 +7,7 @@ include 'UO/UO.php';           //Команды умного одногрупп�
 function bot_manager($message, $chat_id, $user_id)
     {
 	//Понижение регистра
-	$mess = strtolower($message);
+	$mess = strtolower_ru(strtolower($message));
 	
 	switch (Auth($user_id))
 		{
@@ -37,7 +37,8 @@ function bot_manager($message, $chat_id, $user_id)
 				}
 			else
 				{
-				
+				if (substr($mess,0,12) == "завтра") return tomorrow();
+				if (substr($mess,0,14) == "сегодня") return today();
 				}
 		case 'student':
 			if ($mess[0] == "/")
