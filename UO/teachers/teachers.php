@@ -13,7 +13,9 @@ function findp($chat_id, $mess)
                 {
                     if ((strripos(strtolower_ru($j),$tmp[1]) !== false) or (strtolower_ru($j)==$tmp[1])) 
                         {
-                        sendMessage($chat_id, "*".$TEACHERS[$key]['name']." ".$TEACHERS[$key]['name_father']." ".$TEACHERS[$key]['lastname']."\n*Предмет в этом семестре: ".$TEACHERS[$key]['theme1']."\nОценивание: ".$TEACHERS[$key]['assessment']."\n");
+                        if ($TEACHERS[$key]['theme2']=="") sendMessage($chat_id, "*".$TEACHERS[$key]['name']." ".$TEACHERS[$key]['name_father']." ".$TEACHERS[$key]['lastname']."\n*Предмет в этом семестре: ".$TEACHERS[$key]['theme1']."\nОценивание: ".$TEACHERS[$key]['assessment1']."\n".$TEACHERS[$key]['class']."\nКонтакты: ".$TEACHERS[$key]['contacts']);
+                        else sendMessage($chat_id, "*".$TEACHERS[$key]['name']." ".$TEACHERS[$key]['name_father']." ".$TEACHERS[$key]['lastname']."\n*Предметы в этом семестре: \n".$TEACHERS[$key]['theme1']."\nОценивание: ".$TEACHERS[$key]['assessment1']."\n".$TEACHERS[$key]['theme2']."\nОценивание: ".$TEACHERS[$key]['assessment2']."\n".$TEACHERS[$key]['class']."\nКонтакты: ".$TEACHERS[$key]['contacts']);
+                        sendPhoto($chat_id, $TEACHERS[$key]['photo']);
                         $tmp2 = 'iamfind';
                         break;
                         }
