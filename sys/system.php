@@ -19,15 +19,22 @@ $username = $output['message']['from']['username'];             //Ник нап�
 $language_code = $output['message']['from']['language_code'];  //Язык написавшего 
 //Функции для ответов
 function sendMessage($chat_id, $message) //Функция ответа сообщением
- {
- file_get_contents($GLOBALS['api'] . '/sendMessage?chat_id=' . $chat_id . '&text=' . urlencode($message));
- }
+    {
+    file_get_contents($GLOBALS['api'] . '/sendMessage?chat_id=' . $chat_id . '&text=' . urlencode($message) . '&parse_mode=markdown');
+    }
 function sendPhoto($chat_id, $file_id) //Функция ответа сообщением
- {
- file_get_contents($GLOBALS['api'] . '/sendPhoto?chat_id=' . $chat_id . '&photo=' . $file_id);
- }
+    {
+    file_get_contents($GLOBALS['api'] . '/sendPhoto?chat_id=' . $chat_id . '&photo=' . $file_id);
+    }
 function sendFile($chat_id, $file_id) //Функция ответа сообщением
- {
- file_get_contents($GLOBALS['api'] . '/sendDocument?chat_id=' . $chat_id . '&document=' . $file_id);
- }
+    {
+    file_get_contents($GLOBALS['api'] . '/sendDocument?chat_id=' . $chat_id . '&document=' . $file_id);
+    }
+ //Полезные функции
+function strtolower_ru($message) 
+    {
+    $alfavitlover = array('ё','й','ц','у','к','е','н','г', 'ш','щ','з','х','ъ','ф','ы','в', 'а','п','р','о','л','д','ж','э', 'я','ч','с','м','и','т','ь','б','ю','ё','й','ц','у','к','е','н','г', 'ш','щ','з','х','ъ','ф','ы','в', 'а','п','р','о','л','д','ж','э', 'я','ч','с','м','и','т','ь','б','ю');
+    $alfavitupper = array('Ё','Й','Ц','У','К','Е','Н','Г', 'Ш','Щ','З','Х','Ъ','Ф','Ы','В', 'А','П','Р','О','Л','Д','Ж','Э', 'Я','Ч','С','М','И','Т','Ь','Б','Ю','ё','й','ц','у','к','е','н','г', 'ш','щ','з','х','ъ','ф','ы','в', 'а','п','р','о','л','д','ж','э', 'я','ч','с','м','и','т','ь','б','ю');
+    return str_replace($alfavitupper,$alfavitlover,$message);
+    }
  ?>

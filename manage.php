@@ -34,7 +34,11 @@ function bot_manager($message, $chat_id, $user_id)
 				if (substr($mess,1,7) == "user_id") sendMessage($chat_id, $user_id);
 				if (substr($mess,1,4) == "logs") return TBLOGS;
 				break;
-			    }
+				}
+			else
+				{
+				
+				}
 		case 'student':
 			if ($mess[0] == "/")
 				{
@@ -53,6 +57,10 @@ function bot_manager($message, $chat_id, $user_id)
 				if (substr($mess,1,7) == "labccna") labccna($chat_id, $mess);
 
 				break;
+				}
+			else
+				{
+				
 				}
 		default: break;
 		}
