@@ -100,8 +100,7 @@ const TBLAB = "Формат команды такой: /lab'номер лабы'
 
 Список всех работ: /laball
 ";
-const TBLABALL = "
-Список всех лаб CCNA
+const TBLABALL = "*Список всех лаб CCNA:*
 /lab0001
 /lab1012
 /lab1311
@@ -141,7 +140,6 @@ const TBLABALL = "
 /lab10234
 /lab10245
 /lab10311
-
 ";
 const TBPROFESSORS = "
 Вычислительные приборы и 
