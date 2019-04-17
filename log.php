@@ -12,5 +12,4 @@ function wr_output_mess_to_logs($chat_id, $message)
     fwrite($lfile, "O ".date("d/m/Y H:i:s  ")."Chat:".$chat_id." Nick:".NAME_BOT." Message:\n".$message."\n\n");
     fclose($lfile);
     }
-    
 ?>
