@@ -119,8 +119,8 @@ function nextweek(){
 		}
 	}*/
 function labccna($chat_id, $mess){
-		$i[1] = substr($mess,4,strlen($mess));
-		switch ($i[1]) {
+		$i = substr($mess,4,strlen($mess));
+		switch ($i) {
 			case '0001' or '0001@UO_ISIT_bot': sendFile($chat_id, TBLAB0001); break;
 			case '1012' or '1012@uo_isit_bot': sendFile($chat_id, TBLAB1012); break;
 			case '1311' or '1311@uo_isit_bot': sendFile($chat_id, TBLAB1311); break;
