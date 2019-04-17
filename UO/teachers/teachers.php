@@ -5,7 +5,7 @@ function findp($chat_id, $mess)
     $tmp = explode(" ", $mess);
     $tmp2 = $tmp[1];
 
-    //sendMessage($chat_id,$tmp[1]);
+    sendMessage($chat_id,$tmp[1]);
     if (strlen($tmp[1])>7)
         {
         foreach ($TEACHERS as  $key => $i)
