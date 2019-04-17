@@ -119,12 +119,12 @@ function nextweek(){
 		}
 	}*/
 function labccna($chat_id, $mess){
-		$i[1] = substr($mess,8,strlen($mess));
+		$i[1] = substr($mess,4,strlen($mess));
 		switch ($i[1]) {
-			case '': sendMessage($chat_id, "Формат команды такой: /labccna'номер лабы', \nНапример: /labccna0.0.0.1"); break;
-			case '0.0.0.1': sendFile($chat_id, TBLAB0001); break;
-			case '1.0.1.2': sendFile($chat_id, TBLAB1012); break;
-			case '1.3.1.1': sendFile($chat_id, TBLAB1311); break;
+			case '': sendMessage($chat_id, "Формат команды такой: /lab'номер лабы', \nНапример: /lab0001"); break;
+			case '0001': sendFile($chat_id, TBLAB0001); break;
+			case '1012': sendFile($chat_id, TBLAB1012); break;
+			case '1311': sendFile($chat_id, TBLAB1311); break;
 			case '2.1.4.5': sendFile($chat_id, TBLAB2145); break;
 			case '2.2.2.5': sendFile($chat_id, TBLAB2225); break;
 			case '3.0.1.2': sendFile($chat_id, TBLAB3012); break;
