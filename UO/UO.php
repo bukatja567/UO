@@ -73,51 +73,6 @@ function nextweek(){
 		}
 		else return "Понедельник:\n".TBMON2."\n\nВторник\n".TBTUE2."\n\nСреда\n".TBWED2."\n\nЧетверг\n".TBTHU2."\n\nПятница\n".TBFRI2."\n\nСуббота\n".TBSAT2."\n\nВоскресенье\n".TBSUN2;
 	}
-/*function labccna($chat_id, $mess){
-	$i = explode("-", $mess);
-	switch ($i[1]) {
-		case '': sendMessage($chat_id, "Формат команды такой: /labccna_номер лабы, \nНапример: labccna-0.0.0.1"); break;
-		case '0.0.0.1': sendFile($chat_id, TBLAB0001); break;
-		case '1.0.1.2': sendFile($chat_id, TBLAB1012); break;
-		case '1.3.1.1': sendFile($chat_id, TBLAB1311); break;
-		case '2.1.4.5': sendFile($chat_id, TBLAB2145); break;
-		case '2.2.2.5': sendFile($chat_id, TBLAB2225); break;
-		case '3.0.1.2': sendFile($chat_id, TBLAB3012); break;
-		case '3.1.2.12': sendFile($chat_id, TBLAB31212); break;
-		case '3.3.2.3': sendFile($chat_id, TBLAB3323); break;
-		case '3.4.1.1': sendFile($chat_id, TBLAB3411); break;
-		case '4.0.1.2': sendFile($chat_id, TBLAB4012); break;
-		case '4.2.1.4': sendFile($chat_id, TBLAB4214); break;
-		case '4.2.2.4': sendFile($chat_id, TBLAB4224); break;
-		case '4.3.3.4': sendFile($chat_id, TBLAB4334); break;
-		case '4.4.1.1': sendFile($chat_id, TBLAB4411); break;
-		case '5.0.1.2': sendFile($chat_id, TBLAB5012); break;
-		case '6.0.1.2': sendFile($chat_id, TBLAB6012); break;
-		case '6.2.2.5': sendFile($chat_id, TBLAB6225); break;
-		case '6.4.3.5': sendFile($chat_id, TBLAB6435); break;
-		case '6.5.1.1': sendFile($chat_id, TBLAB6511); break;
-		case '7.0.1.2': sendFile($chat_id, TBLAB7012); break;
-		case '7.1.3.6': sendFile($chat_id, TBLAB7136); break;
-		case '7.2.3.6': sendFile($chat_id, TBLAB7236); break;
-		case '7.2.3.7': sendFile($chat_id, TBLAB7237); break;
-		case '7.3.1.1': sendFile($chat_id, TBLAB7311); break;
-		case '8.0.1.2': sendFile($chat_id, TBLAB8012); break;
-		case '8.2.4.5': sendFile($chat_id, TBLAB8245); break;
-		case '8.3.3.6': sendFile($chat_id, TBLAB8336); break;
-		case '8.4.1.1': sendFile($chat_id, TBLAB8411); break;
-		case '9.0.1.2': sendFile($chat_id, TBLAB9012); break;
-		case '9.2.2.8': sendFile($chat_id, TBLAB9228); break;
-		case '9.2.2.9': sendFile($chat_id, TBLAB9229); break;
-		case '9.3.1.1': sendFile($chat_id, TBLAB9311); break;
-		case '10.0.1.2': sendFile($chat_id, TBLAB10012); break;
-		case '10.1.1.13': sendFile($chat_id, TBLAB101113); break;
-		case '10.1.3.5': sendFile($chat_id, TBLAB10135); break;
-		case '10.2.3.3': sendFile($chat_id, TBLAB10233); break;
-		case '10.2.3.4': sendFile($chat_id, TBLAB10234); break;
-		case '10.2.4.5': sendFile($chat_id, TBLAB10245); break;
-		case '10.3.1.1': sendFile($chat_id, TBLAB10311); break;
-		}
-	}*/
 function labccna($chat_id, $mess){
 		$i = substr($mess,4,strlen($mess));
 		switch ($i) {
@@ -160,6 +115,7 @@ function labccna($chat_id, $mess){
 			case '10234': case '10234@uo_isit_bot': sendFile($chat_id, TBLAB10234); break;
 			case '10245': case '10245@uo_isit_bot': sendFile($chat_id, TBLAB10245); break;
 			case '10311': case '10311@uo_isit_bot': sendFile($chat_id, TBLAB10311); break;
+			case 'all': case 'all@uo_isit_bot': sendFile($chat_id, TBLABALL); break;
 			default: sendMessage($chat_id, TBLAB); break;
 			}
 		}
