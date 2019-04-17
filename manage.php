@@ -3,6 +3,7 @@
 include 'Auth/Auth.php';	   //Файл авторизации
 include 'tfcommands/text.php'; //Файл с текстами команд
 include 'UO/UO.php';           //Команды умного одногруппника
+include 'UO/teachers/teachers.php';           //Команды умного одногруппника
 
 function bot_manager($message, $chat_id, $user_id)
     {
@@ -28,6 +29,7 @@ function bot_manager($message, $chat_id, $user_id)
 				//if (substr($mess,1,10) == "professors") return TBPROFESSORS;
 				if (substr($mess,1,3) == "lab") labccna($chat_id, $mess);
 				if (substr($mess,1,7) == "zapccna") return TBZAPCCNA;
+				if (substr($mess,1,5) == "findp") findp($chat_id, $mess);
 				//if (substr($mess,1,8) == "findp") findp($chat_id);
 			    //----- Команды помошники -----
 			    if (substr($mess,1,7) == "chat_id") sendMessage($chat_id, $chat_id);

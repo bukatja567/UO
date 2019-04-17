@@ -5,6 +5,10 @@ include 'settings.php';   //Добавить файл с токеном бота
 include 'manage.php';     //Главный менеджер - ищет команду в сообщении
 include 'sys/system.php'; //Подготавливает ответ и раздербанивает json
 include 'log.php';        //Ведение лога
+include 'UO/teachers/datateachers.php';
+
+$TEACHERS=array();
+data_TEACHERS();
 
 wr_input_mess_to_logs ($chat_id, $username, $user_id, $message); //Писать логи входящих сообщений
 if ($chat_type != "group") sendMessage($chat_id,$file_id);

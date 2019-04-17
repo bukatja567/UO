@@ -1,0 +1,25 @@
+<?php
+function findp($chat_id, $mess)
+    {
+    global $TEACHERS;
+    $tmp = explode(" ", $mess);
+    $tmp2 = $tmp[1];
+
+    //sendMessage($chat_id,$tmp[1]);
+    if (strlen($tmp[1])>7)
+        {
+        foreach ($TEACHERS as  $key => $i)
+            foreach ($i as  $key2 => $j)
+                {
+                    if ((strripos(strtolower_ru($j),$tmp[1]) !== false) or (strtolower_ru($j)==$tmp[1])) 
+                        {
+                        sendMessage($chat_id, "*".$TEACHERS[$key]['name']."*\nАдрес: ".$TEACHERS[$key]['address']."\n\nМетро: ".$TEACHERS[$key]['metro']."\nОкон: ".$TEACHERS[$key]['windows']);
+                        $tmp2 = 'iamfind';
+                        break;
+                        }
+                }
+        if ($tmp2 != 'iamfind') sendMessage($chat_id,"Не найдено!");
+        }
+    else sendMessage($chat_id,"Слишком короткий поисковый запрос!");
+    }
+?>
