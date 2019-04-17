@@ -5,7 +5,7 @@ function findp($chat_id, $mess)
     $tmp = explode(" ", $mess);
     $tmp2 = $tmp[1];
 
-    sendMessage($chat_id,$tmp[1]);
+    //sendMessage($chat_id,$tmp[1]);
     if (strlen($tmp[1])>7)
         {
         foreach ($TEACHERS as  $key => $i)
@@ -13,7 +13,7 @@ function findp($chat_id, $mess)
                 {
                     if ((strripos(strtolower_ru($j),$tmp[1]) !== false) or (strtolower_ru($j)==$tmp[1])) 
                         {
-                        sendMessage($chat_id, "*".$TEACHERS[$key]['name']." ".$TEACHERS[$key]['name_father']." ".$TEACHERS[$key]['lastname']."\nПредмет в этом семестре: ".$TEACHERS[$key]['theme1']."\nОценивание: ".$TEACHERS[$key]['assessment']."\n");
+                        sendMessage($chat_id, "*".$TEACHERS[$key]['name']." ".$TEACHERS[$key]['name_father']." ".$TEACHERS[$key]['lastname']."\n*Предмет в этом семестре: ".$TEACHERS[$key]['theme1']."\nОценивание: ".$TEACHERS[$key]['assessment']."\n");
                         $tmp2 = 'iamfind';
                         break;
                         }
