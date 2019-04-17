@@ -61,7 +61,8 @@ function bot_manager($message, $chat_id, $user_id)
 				}
 			else
 				{
-				
+				if (substr($mess,0,12) == "завтра") return tomorrow();
+				if (substr($mess,0,14) == "сегодня") return today();				
 				}
 		default: break;
 		}
