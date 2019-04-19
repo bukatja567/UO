@@ -26,7 +26,7 @@ function bot_manager($message, $chat_id, $user_id)
 				if (substr($mess,1,8) == "nextweek") return nextweek();
 				if (substr($mess,1,5) == "today") return today();
 				if (substr($mess,1,8) == "tomorrow") return tomorrow();
-				//if (substr($mess,1,10) == "professors") return TBPROFESSORS;
+				if (substr($mess,1,5) == "listp") return TBPROFESSORS;
 				if (substr($mess,1,3) == "lab") labccna($chat_id, $mess);
 				if (substr($mess,1,7) == "zapccna") return TBZAPCCNA;
 				if (substr($mess,1,5) == "findp") findp($chat_id, $mess);
@@ -56,9 +56,10 @@ function bot_manager($message, $chat_id, $user_id)
 				if (substr($mess,1,8) == "nextweek") return nextweek();
 				if (substr($mess,1,5) == "today") return today();
 				if (substr($mess,1,8) == "tomorrow") return tomorrow();
-				//if (substr($mess,1,10) == "professors") return TBPROFESSORS;
+				if (substr($mess,1,5) == "listp") return TBPROFESSORS;
 				if (substr($mess,1,3) == "lab") labccna($chat_id, $mess);
 				if (substr($mess,1,7) == "zapccna") return TBZAPCCNA;
+				if (substr($mess,1,5) == "findp") findp($chat_id, $mess);
 				break;
 				}
 			else
