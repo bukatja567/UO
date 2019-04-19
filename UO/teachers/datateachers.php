@@ -12,7 +12,7 @@ function data_TEACHERS()
     $TEACHERS[0]['theme2'] = "";
     $TEACHERS[0]['assessment2'] = "";
     $TEACHERS[0]['index'] = "";
-    $TEACHERS[0]['constacts'] = "\n+7(926)525-42-21\nvgleonov@yandex.ru";
+    $TEACHERS[0]['contacts'] = "\n+7(926)525-42-21\nvgleonov@yandex.ru";
 
     $TEACHERS[1]['name'] = "Сергей";
     $TEACHERS[1]['lastname'] = "Парфенов";
@@ -24,7 +24,7 @@ function data_TEACHERS()
     $TEACHERS[1]['theme2'] = "Информационные системы и технологии";
     $TEACHERS[1]['assessment2'] = "Экзамен";
     $TEACHERS[1]['index'] = "КПП, ИСИТ";
-    $TEACHERS[1]['constacts'] = "998047@mail.ru";
+    $TEACHERS[1]['contacts'] = "998047@mail.ru";
     
     $TEACHERS[2]['name'] = "Дмитрий";
     $TEACHERS[2]['lastname'] = "Горелко";
@@ -36,7 +36,7 @@ function data_TEACHERS()
     $TEACHERS[2]['theme2'] = "";
     $TEACHERS[2]['assessment2'] = "";
     $TEACHERS[2]['index'] = "Технология программирования Системное администрирование сисадмин"; 
-    $TEACHERS[2]['constacts'] = "dmitry.gorelko@gmail.com";
+    $TEACHERS[2]['contacts'] = "dmitry.gorelko@gmail.com";
     
     $TEACHERS[3]['name'] = "Кирилл";
     $TEACHERS[3]['lastname'] = "Гусин";
@@ -48,7 +48,7 @@ function data_TEACHERS()
     $TEACHERS[3]['theme2'] = "";
     $TEACHERS[3]['assessment2'] = "";
     $TEACHERS[3]['index'] = "CCNA cisco сети";
-    $TEACHERS[3]['constacts'] = "\n+7(916)520-20-72\nkf.gusin@mpgu.edu"; 
+    $TEACHERS[3]['contacts'] = "\n+7(916)520-20-72\nkf.gusin@mpgu.edu"; 
 
     $TEACHERS[4]['name'] = "Марина";
     $TEACHERS[4]['lastname'] = "Хецева";
@@ -60,7 +60,7 @@ function data_TEACHERS()
     $TEACHERS[4]['theme2'] = "";
     $TEACHERS[4]['assessment2'] = "";
     $TEACHERS[4]['index'] = "физ-ра физра физкультура";  
-    $TEACHERS[4]['constacts'] = "https://vk.com/id5529041";
+    $TEACHERS[4]['contacts'] = "https://vk.com/id5529041";
 
     $TEACHERS[5]['name'] = "Борис";
     $TEACHERS[5]['lastname'] = "Пушкарев";
@@ -72,7 +72,7 @@ function data_TEACHERS()
     $TEACHERS[5]['theme2'] = "";
     $TEACHERS[5]['assessment2'] = "";
     $TEACHERS[5]['index'] = "инглиш английский язык";  
-    $TEACHERS[5]['constacts'] = "https://vk.com/borris2007";
+    $TEACHERS[5]['contacts'] = "https://vk.com/borris2007";
 
     $TEACHERS[6]['name'] = "Дина";
     $TEACHERS[6]['lastname'] = "Харичева";
@@ -84,7 +84,7 @@ function data_TEACHERS()
     $TEACHERS[6]['theme2'] = "";
     $TEACHERS[6]['assessment2'] = "";
     $TEACHERS[6]['index'] = "1с";  
-    $TEACHERS[6]['constacts'] = "\n+7(910)447-58-88\nhdl@mail.ru";
+    $TEACHERS[6]['contacts'] = "\n+7(910)447-58-88\nhdl@mail.ru";
 
     $TEACHERS[7]['name'] = "Юрий";
     $TEACHERS[7]['lastname'] = "Хотунцев";
@@ -96,7 +96,7 @@ function data_TEACHERS()
     $TEACHERS[7]['theme2'] = "";
     $TEACHERS[7]['assessment2'] = "";
     $TEACHERS[7]['index'] = "Экология";  
-    $TEACHERS[7]['constacts'] = "yul.hotuncev@mpgu.su";
+    $TEACHERS[7]['contacts'] = "yul.hotuncev@mpgu.su";
 
     $TEACHERS[8]['name'] = "Кермен";
     $TEACHERS[8]['lastname'] = "Гоголданова";
@@ -108,7 +108,7 @@ function data_TEACHERS()
     $TEACHERS[8]['theme2'] = "";
     $TEACHERS[8]['assessment2'] = "";
     $TEACHERS[8]['index'] = "ВИП";  
-    $TEACHERS[8]['constacts'] = "kv.gogoldanova@mpgu.su";
+    $TEACHERS[8]['contacts'] = "kv.gogoldanova@mpgu.su";
     
     $TEACHERS[9]['name'] = "Ольга";
     $TEACHERS[9]['lastname'] = "Поликашина";
@@ -120,7 +120,7 @@ function data_TEACHERS()
     $TEACHERS[9]['theme2'] = "";
     $TEACHERS[9]['assessment2'] = "";
     $TEACHERS[9]['index'] = "";  
-    $TEACHERS[9]['constacts'] = "ov.polikashina@mpgu.su";
+    $TEACHERS[9]['contacts'] = "ov.polikashina@mpgu.su";
 
     $TEACHERS[10]['name'] = "Борис";
     $TEACHERS[10]['lastname'] = "Рябов";
@@ -132,6 +132,6 @@ function data_TEACHERS()
     $TEACHERS[10]['theme2'] = "";
     $TEACHERS[10]['assessment2'] = "";
     $TEACHERS[10]['index'] = "Экология";  
-    $TEACHERS[10]['constacts'] = "\n+7(910)444-20-94\nba.ryabov@mpgu.su";
+    $TEACHERS[10]['contacts'] = "\n+7(910)444-20-94\nba.ryabov@mpgu.su";
     }
 ?>
