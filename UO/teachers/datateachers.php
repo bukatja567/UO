@@ -91,7 +91,7 @@ function data_TEACHERS()
     $TEACHERS[7]['name_father'] = "Леонтьевич";
     $TEACHERS[7]['theme1'] = "Современное производство и окружающая среда";
     $TEACHERS[7]['assessment1'] = "Зачет";
-    $TEACHERS[7]['photo'] = "";
+    $TEACHERS[7]['photo'] = "AgADBAADvagxG9FRzVG7QtehZ4kAAVcjUCAbAARg76R7gCaEOUwtBQABAg";
     $TEACHERS[7]['class'] = "Электротехника, рядом и 4 аудитория";
     $TEACHERS[7]['theme2'] = "";
     $TEACHERS[7]['assessment2'] = "";
