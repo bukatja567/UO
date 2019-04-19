@@ -55,7 +55,7 @@ function data_TEACHERS()
     $TEACHERS[4]['name_father'] = "Сергеевна";
     $TEACHERS[4]['theme1'] = "Элективные курсы по физической культуре";
     $TEACHERS[4]['assessment1'] = "Зачет";
-    $TEACHERS[4]['photo'] = "";
+    $TEACHERS[4]['photo'] = "AgADBAADxKgxG9321VEdLgeAX3oO1_1WwxoABKGYZ3N4YwUNDnAGAAEC";
     $TEACHERS[4]['class'] = "КГФ, спортзал";
     $TEACHERS[4]['theme2'] = "";
     $TEACHERS[4]['assessment2'] = "";
