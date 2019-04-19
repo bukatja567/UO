@@ -103,45 +103,45 @@ const TBLAB = "Формат команды такой: /lab'номер лабы'
 Список всех работ: /laball
 ";
 const TBLABALL = "*Список всех лаб CCNA:*
-/lab0001
-/lab1012
-/lab1311
-/lab2145
-/lab2225
-/lab3012
-/lab31212
-/lab3323
-/lab3411
-/lab4012
-/lab4214
-/lab4224
-/lab4334
-/lab4411
-/lab5012
-/lab6012
-/lab6225
-/lab6435
-/lab6511
-/lab7012
-/lab7136
-/lab7236
-/lab7237
-/lab7311
-/lab8012
-/lab8245
-/lab8336
-/lab8411
-/lab9012
-/lab9228
-/lab9229
-/lab9311
-/lab10012
-/lab101113
-/lab10135
-/lab10233
-/lab10234
-/lab10245
-/lab10311
+/lab0001 - Сброс устройств
+/lab1012 - Проект сети
+/lab1311 - Многоуровневая сеть
+/lab2145 - Vlans, VTP, DTP
+/lab2225 - Неполадки VLAN
+/lab3012 - Шторм
+/lab31212 - Резервные каналы
+/lab3323 - Rapid, PortFast, BPDUGuard
+/lab3411 - Дерево документации
+/lab4012 - Почему Etherchannel?
+/lab4214 - EtherChannel
+/lab4224 - Неполадки Etherchannel
+/lab4334 - HSRP
+/lab4411 - Есть ли у вас Etherchannel?
+/lab5012 - Cost way
+/lab6012 - Описание EIGRP
+/lab6225 - Настройка EIGRP, IPv4
+/lab6435 - Настройка EIGRP, IPv6
+/lab6511 - RIP vs EIGRP
+/lab7012 - Повтор EIGRP
+/lab7136 - Расш. настройка EIRGP
+/lab7236 - Неполадки EIGRP, база
+/lab7237 - Неполадки EIGRP, расш.
+/lab7311 - Проверка знаний EIGRP
+/lab8012 - Дейкстра
+/lab8245 - OSPFv2 для 1-ой области
+/lab8336 - OSPFv3 для 1-ой области
+/lab8411 - Описание работы OSPF
+/lab9012 - Как работает OSPF, неск.областей
+/lab9228 - OSPFv2, неск.областей
+/lab9229 - OSPFv3, неск.областей
+/lab9311 - Цифровые трамваи
+/lab10012 - Выбор DR и BDR
+/lab101113 - OSPFv2, множ.доступ
+/lab10135 - расш. OSPFv2
+/lab10233 - Неполадки OSPF,одн.обл.
+/lab10234 - Неполадки расш.OSPFv2
+/lab10245 - Неполадки OSPF, неск.обл.
+/lab10311 - Повторение OSPF
 ";
 
 const TBPROFESSORS = "
